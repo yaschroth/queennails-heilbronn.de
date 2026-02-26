@@ -93,7 +93,10 @@ const Navbar = () => {
             <img
               src={config.logo.src}
               alt={config.logo.alt || config.business.name}
-              className="h-10 md:h-12 object-contain"
+              className={cn(
+                "h-10 md:h-12 object-contain transition-all duration-300",
+                isScrolled ? "bg-dark/90 rounded-lg p-1" : ""
+              )}
             />
           )}
           <span className="font-serif text-xl md:text-2xl tracking-widest uppercase font-light">{config.business.name}</span>
