@@ -139,7 +139,7 @@ export const config = {
       title: "Shellac Maniküre",
       description: "Shellac für perfekt gepflegte Nägel mit bis zu 2 Wochen Haltbarkeit. Mit oder ohne Maniküre buchbar.",
       price: "ab 23€",
-      image: "/nails/color.png",
+      image: "/nails/maniküre 3.png",
       benefits: ["2 Wochen Halt", "Schnell trocken"],
     },
     {
